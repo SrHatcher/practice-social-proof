@@ -22,7 +22,7 @@
     --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
     --Light-Grayish-Magenta: hsl(300, 24%, 96%);
 
-    --font: font-family: "League Spartan", sans-serif;
+    --font: "League Spartan", sans-serif;
 }
 
 html{
@@ -30,6 +30,9 @@ html{
 }
 
 body{
+    display: flex;
+    justify-content: center;
+
     min-height: 100vh;
 
     font-size: 1.5rem;
@@ -37,6 +40,90 @@ body{
     background-color: white;
 }
 
-main{
-    
+.main{
+       display: grid;
+       grid-template-columns: auto;
+       grid-template-rows: 1fr 1fr 3fr;
+       gap: 5rem;
+
+       margin-block-start: 10vh;
+       max-width: 39rem;
+       padding: 0 2rem;
+
+       background-color: red;
+}
+
+.main__h1{
+    padding: 0 5rem;
+
+    font-family: var(--font);
+    font-weight: 700;
+    text-align: center;
+    line-height: 3rem;
+
+    color: var(--very-dark-magenta);
+}
+.main__p{
+    margin-block-start: 2rem;
+
+    font-family: var(--font);
+    font-weight: 50;
+    text-align: center;
+
+    color: var(--Light-Grayish-Magenta);
+}
+.main__stars{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.star__review{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+.star__wrapper{
+
+}
+.star__icon{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+
+    background-image: url("./images/icon-star.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.star__comment{
+
+}
+.star__review{
+
+}
+.star__review{
+
+}
+.main__comments{
+
+}
+.comment__review{
+
+}
+.comment__header{
+
+}
+.comment__profile{
+
+}
+.comment__name{
+
+}
+.comment__verified{
+
+}
+.comment__p{
+
 }

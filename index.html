@@ -7,28 +7,72 @@
     <!--MODERN CSS RESET  -->
     <link rel="stylesheet" href="./reset.css">
     <!--my styles-->
+    <link rel="stylesheet" href="./styles.css">
     <title>Frontend Mentor | Social proof section</title>
   </head>
   <body>
-    <main>
-      <h1>10,000+ of our users love our products</h1>
-      <p>We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services</p>
-      <div class="star__reviews">
+    <main class="main">
+      <div class="main__header">
+        <h1 class="main__h1">10,000+ of our users love our products.</h1>
+        <p class="main__p">We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services</p>
+      </div>
+      <div class="main__stars star">
         <div class="star__review">
-          <div class="star__">
-            <span class="star_icon"></span>
-            <span class="star_icon"></span>
-            <span class="star_icon"></span>
-            <span class="star_icon"></span>
-            <span class="star_icon"></span>
+          <div class="star__wrapper">
+            <span class="star__icon"></span>
+            <span class="star__icon"></span>
+            <span class="star__icon"></span>
+            <span class="star__icon"></span>
+            <span class="star__icon"></span>
           </div>
-          <span class="star_review">Rated 5 Stars in Reviews</span>
+          <span class="star__comment">Rated 5 Stars in Reviews</span>
         </div>
-        <div class="star_review">
-
+        <div class="star__review">
+          <div class="star__wrapper">
+            <span class="star__icon"></span>
+            <span class="star__icon"></span>
+            <span class="star__icon"></span>
+            <span class="star__icon"></span>
+            <span class="star__icon"></span>
+          </div>
+          <span class="star__comment">Rated 5 Stars in Reviews</span>
         </div>
-        <div class="star_review">
+        <div class="star__review">
+          <div class="star__wrapper">
+            <span class="star__icon"></span>
+            <span class="star__icon"></span>
+            <span class="star__icon"></span>
+            <span class="star__icon"></span>
+            <span class="star__icon"></span>
+          </div>
+          <span class="star__comment">Rated 5 Stars in Reviews</span>
+        </div>
+      </div>
 
+      <div class="main__comments comment">
+        <div class="comment__review">
+          <div class="comment__header">
+            <span class="comment__profile">photo</span>
+            <span class="comment__name">Colton Smith</span>
+            <span class="comment__verified">Verified Buyer</span>
+          </div>
+          <p class="comment__p">"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time, Excellent!"</p>
+        </div>
+        <div class="comment__review">
+          <div class="comment__header">
+            <span class="comment__profile">photo</span>
+            <span class="comment__name">Irene Roberts</span>
+            <span class="comment__verified">Verified Buyer</span>
+          </div>
+          <p class="comment__p">"Customer service is always excellent and very quick turn around. Compeltely delighted with the simplicity of the purchase and the speed of delivery."</p>
+        </div>
+        <div class="comment__review">
+          <div class="comment__header">
+            <span class="comment__profile">photo</span>
+            <span class="comment__name">Anne Wallace</span>
+            <span class="comment__verified">Verified Buyer</span>
+          </div>
+          <p class="comment__p">"Put an order with this company and can only pairse them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>
         </div>
       </div>
     </main>
