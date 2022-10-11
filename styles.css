@@ -125,6 +125,8 @@ body{
 .star__comment{
     font-family: var(--font);
     font-weight: 700;
+
+    color: var(--very-dark-magenta);
 }
 .main__comments{
     display: grid;
